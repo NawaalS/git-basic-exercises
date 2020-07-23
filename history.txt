@@ -1,0 +1,159 @@
+    1  ls 
+    2  ls /data 
+    3  ls /etc/per1 
+    4  pwd/home/ubuntu 
+    5  pwd/home/nawaal
+    6  mkdir Learning_unix 
+    7  ls
+    8  git-basic-exercises cd 
+    9  cd git-basic-exercises 
+   10  mkdir git-basic-exercises
+   11  cd git-basic-exercises
+   12  mkdir git-basic-exercises
+   13  cd git-basic-exercises
+   14  ls -a
+   15  git init
+   16  ls -a
+   17  git status
+   18  touch README.md
+   19  ls -a
+   20  git status
+   21  git log
+   22  git add <README.md> 
+   23  git add README.md
+   24  git status
+   25  git rm --cached README.md 
+   26  git status
+   27  git add README.md 
+   28  git commit -m "initial commit"
+   29  git log
+   30  cd git-basic-exercises
+   31  ls -a
+   32  git status
+   33  git add README.md
+   34  nano README.md
+   35  cat README.md
+   36  git status
+   37  git add modified README.md 
+   38  git commit modified README.md
+   39  nano README.md
+   40  git add README.md modified
+   41  nano README.md
+   42  rmdir nano README.md 
+   43  git status
+   44  git add README.md modified
+   45  git restore README.md 
+   46  nano README.md
+   47  1
+   48  nanoREADME.md
+   49  nano README.md
+   50  git history
+   51  git --help
+   52  bisect
+   53  git bisect
+   54  git status
+   55  git add README.md modified
+   56  nano README.md
+   57  git status
+   58  git restore README.md
+   59  git --ammend
+   60  git --help
+   61  git reset
+   62  nano README.md
+   63  cat README.md
+   64  git status
+   65  git aa README.md modified
+   66  git add README.md modified
+   67  git commit -m "second commit"
+   68  rmdir README.md modified
+   69  git log
+   70  git commit
+   71  nano README.md
+   72  git status
+   73  nano README.md
+   74  nano README.md
+   75  nano README.me :wq
+   76  cat README.md
+   77  git reset
+   78  git status
+   79  rmdir README.md second mod
+   80  nano README.md 
+   81  git status
+   82  git commit -m "second commit"
+   83  cd learning_unix
+   84  pwd
+   85  cd ~
+   86  rmdir git-basic-exercises
+   87  rm -f/index.lock
+   88  rm -f/index.lock
+   89  rm --help
+   90  rm -r git-basic-exercises
+   91  pwd
+   92  cd git-basic-exercises
+   93  cd ~
+   94  rmdir git-basic-exercises
+   95  git status
+   96  mkdir git-basic-exercises
+   97  cd git-basic-exercises
+   98  ls -a
+   99  git init 
+  100  ls -a
+  101  touch README.md
+  102  ls -a
+  103  git status
+  104  git log
+  105  git add README.md
+  106  git status
+  107  git rm --cached README.md
+  108  git status
+  109  git add README.md
+  110  git status
+  111  git commit -m "initial commit"
+  112  git config user.email "nawaalsantos@gmail.com"
+  113  git config user.name "nawaal" 
+  114  git commit -m "initial commit" 
+  115  git log
+  116  q
+  117  nano README.md 
+  118  cat README.md 
+  119  git status
+  120  git commit -m "second commit" 
+  121  git add README.md
+  122  git status
+  123  git commit -m "second commit" 
+  124  git log
+  125  nano README.md
+  126  cat README.md
+  127  git status
+  128  git add README.md
+  129  git commit -m "third commit" 
+  130  git log
+  131  q
+  132  git checkout  f6347b2c8490ce864552d7f2a889a83f2c5a9e2a
+  133  cat README.md
+  134  git checkout master
+  135  cat README.md
+  136  git branch
+  137  git branch milkshake-flavours
+  138  git branch
+  139  git branch *milkshake-flavours
+  140  git branch
+  141  git branch milkshake-flavours
+  142  git branch *milkshake-flavours
+  143  git branch * milkshake-flavours
+  144  git branch
+  145  git checkout milkshake-flavours
+  146  git branch
+  147  nano milkshakes.md
+  148  git status
+  149  git add milkshakes.md
+  150  git status
+  151  git commit -m "added initial flavours"
+  152  git log
+  153  git checkout master
+  154  git log
+  155  git branch history
+  156  git branch
+  157  git checkout history
+  158  git log
+  159  history > history.txt
